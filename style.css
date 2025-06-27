@@ -1,0 +1,78 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dancing Script', cursive;
+  background-color: #231333;
+  color: #5c0066;
+}
+
+.kuromi {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff0fa;
+  border: 3px dashed #c679cc;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(166, 76, 166, 0.4);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #822c8c;
+  margin-bottom: 10px;
+}
+
+.sub {
+  color: #b86cbf;
+  font-size: 2.0em;
+  margin-bottom: 20px;
+}
+
+.diario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagina {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 192, 255, 0.3);
+  max-width: 80%;
+  transition: all 0.5s ease;
+}
+
+h2 {
+  color: #a140b0;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.7;
+}
+
+.nav {
+  background: #db8fd6;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.nav:hover {
+  background: #b75ab0;
+}
