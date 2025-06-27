@@ -75,4 +75,43 @@ p {
 
 .nav:hover {
   background: #b75ab0;
+
+  @media screen and (max-width: 480px) {
+  .container {
+    margin: 20px 10px;
+    padding: 15px;
+    border-width: 2px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .sub {
+    font-size: 1.2em;
+  }
+
+  .diario {
+    flex-direction: column;
+  }
+
+  .pagina {
+    max-width: 100%;
+    padding: 15px;
+    font-size: 1em;
+  }
+
+  .nav {
+    margin: 10px 0;
+    font-size: 1.5em;
+    padding: 8px;
+  }
+
+  .kuromi img {
+    width: 140px !important;
+  }
+
+  p {
+    font-size: 1em;
+  }
 }
